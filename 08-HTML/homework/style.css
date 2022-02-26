@@ -1,0 +1,62 @@
+
+.bg-image{
+    position: relative;
+    display: flex;
+    background-image: url('https://scontent-lim1-1.xx.fbcdn.net/v/t1.6435-9/193962090_3499431280160367_8971918680137845982_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeH1WWSa4y-oteQqrimtY0JH-zRQx0XQPhj7NFDHRdA-GAuQJ-8bWhAeXFJ48iIbxklYp2zzUP7OLrUq1yxs7NQ2&_nc_ohc=8PWLI7Tbb4AAX8C3Ey6&_nc_ht=scontent-lim1-1.xx&oh=00_AT_Evhtb88ZQ2BbGTQ2yIwFQtcBzm29LAMQfSyraQ1CVSg&oe=62404765') ;
+    
+    justify-content: center;
+    background-size: cover;
+    
+
+    
+}
+
+.bg-image::before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0,.25);
+}
+
+h1 {
+    
+  
+    color: chocolate;
+
+}
+
+img{
+   
+   
+    width: 200px;
+    padding: 5px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+#spanId{
+    font-size: 18px;
+    
+}
+
+#thirddiv{
+    
+    
+    border-radius: 2px;
+    border: 5px;
+    margin: auto;
+    height: 650px ;
+    width: 300px ;
+    padding: 50px;
+    border-style: dashed;
+    border-color: rgb(236, 221, 84) ;
+    background-color: rgb(218, 60, 32);
+    
+   
+}
